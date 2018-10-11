@@ -35,7 +35,12 @@
     "type": "git",
     "url": "https://github.com/fabiospampinato/react-apollo-graphqls.git"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "hoc",
+    "apollo",
+    "graphql"
+  ],
   "dependencies": {
     "@types/lodash": "^4.14.56",
     "@types/react": "^15.0.18",
