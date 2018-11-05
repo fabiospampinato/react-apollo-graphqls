@@ -1,7 +1,7 @@
 
 /* IMPORT */
 
-import * as _ from 'lodash';
+import omit = require ( 'lodash/omit' );
 import {graphql} from 'react-apollo';
 import {operation} from './types';
 
@@ -9,7 +9,7 @@ import {operation} from './types';
 
 function graphqls ( ...operations: operation[] ) {
   return function ( component ) {
-    return operations.reduce ( ( component, operation ) => graphql ( operation.gql, _.omit ( operation, 'gql' ) )( component ), component );
+    return operations.reduce ( ( component, operation ) => graphql ( operation.gql, omit ( operation, 'gql' ) )( component ), component );
   }
 }
 
