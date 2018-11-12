@@ -15,4 +15,4 @@ function graphqls ( ...operations: operation[] ) {
 
 /* EXPORT */
 
-export = Object.assign ( graphqls, { default: graphqls } );
+export default graphqls;
