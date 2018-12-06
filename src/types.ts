@@ -2,11 +2,11 @@
 /* IMPORT */
 
 import {DocumentNode} from 'graphql';
-import {OperationOption} from 'react-apollo/lib/graphql';
+import {OperationOption} from 'react-apollo/types';
 
 /* TYPES */
 
-type operation = OperationOption & {
+type operation = OperationOption<any, any> & {
   gql: DocumentNode
 };
 

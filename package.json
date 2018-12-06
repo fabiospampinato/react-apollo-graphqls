@@ -1,6 +1,6 @@
 {
   "name": "react-apollo-graphqls",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Tiny wrapper around react-apollo's graphql container, with support for multiple queries with a single call.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -33,7 +33,7 @@
     "@types/react": "^15.0.18",
     "lodash": "^4.17.4",
     "react": "^15.4.2",
-    "react-apollo": "^1.0.0-rc.3"
+    "react-apollo": "^1.4.16"
   },
   "devDependencies": {
     "rimraf": "^2.6.0",
